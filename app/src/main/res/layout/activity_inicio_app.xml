@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25B62B"
+    android:foregroundTint="#4CAF50"
+    tools:context=".InicioApp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="207dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="100dp"
+        android:drawableTint="#FAFAFA"
+        android:text="@string/bienvenido_a_look_at_the_animals"
+        android:textColor="#3E2723"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chile"
+        android:textColor="#3E2723"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="297dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/pngwing_com"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="161dp"
+        android:layout_height="212dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/kisspng_long_tailed_chinchilla_rodent_short_tailed_chinchi_5b1f30dc318f98_230723321528770780203"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="add"
+        android:text="@string/entrar"
+        android:textColor="#2E7D32"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="408dp" />
+</android.support.constraint.ConstraintLayout>

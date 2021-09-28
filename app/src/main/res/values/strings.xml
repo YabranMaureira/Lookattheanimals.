@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Look at the animals!</string>
+    <string name="bienvenido_a_esta_app">BIENVENIDO A ESTA APP</string>
+    <string name="bienvenido_a_look_at_the_animals" translatable="false">Bienvenido a Look at the animals</string>
+    <string name="chile" translatable="false">CHILE</string>
+    <string name="todo">TODO</string>
+    <string name="entrar" translatable="false">Entrar</string>
+    <string name="todo">TODO</string>
+</resources>
